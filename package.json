@@ -14,11 +14,14 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
+    "@radix-ui/react-slot": "^1.2.4",
     "@react-native-async-storage/async-storage": "2.1.2",
     "@react-native-community/datetimepicker": "8.4.1",
     "@react-navigation/drawer": "^7.3.9",
     "@react-navigation/native": "^7.1.6",
     "axios": "^1.10.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
     "expo": "53.0.19",
     "expo-av": "^16.0.8",
@@ -41,7 +44,8 @@
     "react-native-signature-canvas": "^5.0.2",
     "react-native-svg": "15.11.2",
     "react-native-web": "~0.20.0",
-    "react-native-webview": "13.13.5"
+    "react-native-webview": "13.13.5",
+    "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
